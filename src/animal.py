@@ -1,4 +1,6 @@
 # 必要なモジュールのインポート
+!pip install torchvision
+import torchvision
 from torchvision import transforms
 import pytorch_lightning as pl
 import torch.nn as nn
